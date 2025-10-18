@@ -1,0 +1,53 @@
+erDiagram
+    CUSTOMER ||--o{ CART : has
+    CUSTOMER ||--o{ ORDERS : places
+    PRODUCT ||--o{ CART : contains
+    CART ||--o{ ORDERS : includes
+    PAYMENT ||--o{ ORDERS : processes
+    
+    CUSTOMER {
+        int CustomerID PK
+        string FirstName
+        string LastName
+        string PhoneNumber UK
+        string Email UK
+        timestamp CreatedDate
+        timestamp UpdatedDate
+    }
+    
+    PRODUCT {
+        int ProductID PK
+        string ProductName
+        text ProductDescription
+        decimal Price
+        int StockQuantity
+        string ProductStatus
+        timestamp CreatedDate
+        timestamp UpdatedDate
+    }
+    
+    CART {
+        int CartID PK
+        int CustomerID FK
+        int Quantity
+        int ProductID FK
+        timestamp AddedDate
+    }
+    
+    PAYMENT {
+        int PaymentID PK
+        string PaymentMethod
+        decimal AmountPaid
+        timestamp PaymentDate
+        string PaymentStatus
+    }
+    
+    ORDERS {
+        int OrderID PK
+        timestamp OrderDate
+        string OrderStatus
+        int CustomerID FK
+        int CartID FK
+        int PaymentID FK
+        timestamp DeliveryDate
+    }
