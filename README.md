@@ -59,9 +59,9 @@ shopping-cart-database/
 │
 ├── README.md
 ├── database/
-│   ├── DBproject_empty_schema.sql      # Schema only (for production)
-│   ├── DBproject_sample_data.sql       # Sample data for testing
-│   └── DBproject_test_queries.sql      # Test queries to validate data
+│   ├── schema.sql      # Schema only (for production)
+│   ├── sample_data.sql       # Sample data for testing
+│   └── queries.sql      # Test queries to validate data
 │
 └── docs/
     ├── erd.mermaid                     # Entity Relationship Diagram
