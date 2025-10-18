@@ -61,7 +61,7 @@ shopping-cart-database/
 ├── database/
 │   ├── schema.sql      # Schema only (for production)
 │   ├── sample_data.sql       # Sample data for testing
-│   └── queries.sql      # Test queries to validate data
+│   └── test_queries.sql      # Test queries to validate data
 │
 └── docs/
     ├── erd.mermaid                     # Entity Relationship Diagram
