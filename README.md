@@ -227,4 +227,4 @@ This project is open source and available under the MIT License.
 
 ## Author
 
-Created as a Fundamentals of Databases course project.
+Joory Alzahrani
