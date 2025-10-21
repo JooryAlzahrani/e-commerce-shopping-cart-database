@@ -78,7 +78,7 @@ shopping-cart-database/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/shopping-cart-database.git
+git clone https://github.com/jooryalzahrani/shopping-cart-database.git
 cd shopping-cart-database
 ```
 
