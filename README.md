@@ -1,4 +1,4 @@
-# Shopping Cart Database
+# E-Commerce Shopping Cart Database
 
 A comprehensive relational database system designed for an e-commerce shopping cart application. Built with MySQL, this project demonstrates core database concepts including schema design, relationships, constraints, and data integrity.
 
